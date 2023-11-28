@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(240, 208, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+}
+
+.login .caja-titulo{
+    text-align: center;
+    font-size: 50px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-top: -50px;
+    margin-bottom: -30px;
+}
+
+.login .caja-form{
+    display: flex;
+    background-color: yellow;
+    width: 500px;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    border: 2px solid black;
+    box-shadow: 7px 7px 5px rgb(78, 87, 42);
+}
+.login .caja-form h3{
+    margin-top: -20px;
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.login .caja-form .botones{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    padding: 20px;
+    margin-bottom: -10px;
+}
+.login .caja-form .botones button{
+    background-color: aquamarine;
+    width: 160px;
+    font-size: 23px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: bold;
+    padding: 12px;
+    margin-bottom: 30px;
+    box-shadow: 3px 3px 4px rgb(37, 128, 141);
+}
+
+.login .caja-form p{
+    background-color: aquamarine;
+    border: 2px solid black;
+    width: 400px;
+    font-size: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: bold;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 4px rgb(37, 128, 141);
+}
+
+.login .caja-form p input{
+    background-color: yellow;
+    border: 2px solid black;
+    font-size: 18px;
+    width: 350px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: bold;
+    padding: 8px;
+}

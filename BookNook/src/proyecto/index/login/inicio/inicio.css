@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -40px;
+    background-color: rgb(240, 208, 255);
+  }
+  .titulo {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-bottom: -30px;
+  }
+  
+  .funcionalidades {
+    display: flex;
+    background-color: yellow;
+    width: 1300px;
+    height: 600px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 70px;
+    border: 2px solid black;
+    box-shadow: 7px 7px 5px rgb(78, 87, 42);
+  }
+
+  .funcionalidades .lista-compras{
+    background-color: aquamarine;
+    width: 550px;
+    height: 600px;
+    overflow: auto;
+    border: 2px solid black;
+    
+  }
+  .funcionalidades .lista-compras h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+  }
+
+  .fucionalidades .lista-compras p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+  }
+
+  .funcionalidades .opciones form{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .opciones input {
+    background-color: aquamarine;
+    width: 400px;
+    font-size: 30px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    margin-bottom: 50px;
+  }
+  
